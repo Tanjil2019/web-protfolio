@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(201, 212, 223);
+}
+h1{
+    margin:40px 25px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.span1{
+    color: brown;
+    font-size: 2.2rem;
+    
+}
+.span2{
+    font-size: 2.7rem;
+    letter-spacing: .1em;
+}
+
+h4{
+    margin: 20px;
+    font-size: 1.3rem;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    position: relative;
+}
+@keyframes example{
+    0% {color: cadetblue; left: 0px; top: 0px;}
+    50%{color: brown; left: 100px; top: 0px;}
+    100%{color: rgb(7, 83, 20); left: 0px; top: 0px;}
+}
+
+h3{
+    padding: 10px;
+    font-size: 1rem;
+}
+p{
+    padding: 10px;
+
+}
+
+.width-half{
+   width: 40%;
+   float: left;    
+}
+
+.width-half img{
+    padding-left: 200px;
+    padding-top: 50px;
+  width: 90%;  
+  border-radius: 40%;
+ }
