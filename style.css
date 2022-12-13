@@ -20,6 +20,7 @@ h1{
     letter-spacing: .1em;
 }
 h4{
+   border-radius: 10px;
     padding-left: 50px;
     margin: 20px;
     font-size: 1.3rem;
@@ -43,11 +44,11 @@ p{
     margin-bottom: 20px;
 }
 .width-half{
-    width: 40%;
+    width: 45%;
     float: left;    
  }
  .width-half img{
-    padding-left: 200px;
+    padding-right: 100px;
     padding-top: 50px;
     width: 90%;  
     border-radius: 200px;
@@ -97,7 +98,7 @@ a{
  }
 
  .width-half2{
-    width: 40%;
+    width: 50%;
     float: left;    
  }
 
@@ -132,3 +133,43 @@ a{
     
 
 /* Section 2 End */
+
+
+/* section shawdo starts */
+
+.shawdo{
+  margin: 50px 500px;
+   font-size: 2.3rem;
+   background-color: #1e2024;
+   width: 180px;
+   color: rgb(99, 5, 5);
+   padding: 10px 20px;
+   text-transform: uppercase;
+   box-shadow: 5px 5px 20px 5px rgb(10, 10, 10);
+}
+.shawdo:hover{
+   cursor: pointer;
+   font-size: 2.2rem;
+   box-shadow: 5px 5px 50px 5px rgb(10, 10, 10)
+}
+
+#Shadow-body{
+   padding: 10px;
+   width: 45%;
+   float: left;
+   box-shadow: 7px 7px 40px black;
+   margin: 20px;
+}
+#Shadow-body:hover{
+   background-color: #101218;
+}
+
+.h2-sha{
+   text-align: center;
+   padding: 20px;
+   text-transform: uppercase;
+   text-shadow: 5px 5px 10px rgb(114, 3, 3);
+}
+.sha-h3{
+   font-size: 1.2rem;
+}
